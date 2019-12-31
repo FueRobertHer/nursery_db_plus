@@ -8,7 +8,7 @@
     "persistent": false
   },
   "content_scripts": [{
-    "matches": ["http://*.naturalresourcesdatabase.com/nursery/propcode/*"],
+    "matches": ["https://naturalresourcesdatabase.com/nursery/propcode"],
     "js": ["formControl.js"]
   }],
   "manifest_version": 2
