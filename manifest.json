@@ -2,11 +2,7 @@
   "name": "Nursery DB+",
   "version": "1.0",
   "description": "Make data entry easier! Allow data form submiting with enter key",
-  "permissions": ["activeTab", "declarativeContent", "storage"],
-  "background": {
-    "scripts": ["background.js"],
-    "persistent": false
-  },
+  "permissions": ["activeTab"],
   "content_scripts": [{
     "matches": ["https://naturalresourcesdatabase.com/nursery/propcode"],
     "js": ["formControl.js"]
