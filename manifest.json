@@ -7,5 +7,19 @@
     "matches": ["https://naturalresourcesdatabase.com/nursery/propcode"],
     "js": ["formControl.js"]
   }],
+  "page_action": {
+    "default_icon": {
+      "16": "images/nursery16.png",
+      "32": "images/nursery32.png",
+      "48": "images/nursery48.png",
+      "128": "images/nursery128.png"
+    }
+  },
+  "icons": {
+    "16": "images/nursery16.png",
+    "32": "images/nursery32.png",
+    "48": "images/nursery48.png",
+    "128": "images/nursery128.png"
+  },
   "manifest_version": 2
 }
